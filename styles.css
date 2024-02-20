@@ -1,0 +1,110 @@
+html  {
+    font:16px/1.5 'Arial', sans-serif;
+    /* font-size: 20px; */
+}
+h1, h2 {
+    font-variant: small-caps;
+}
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+q {
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+}
+footer p {
+    font-size: 0.8rem;
+}
+body {
+    width: 80%;
+    max-width: 1200px;
+}
+.eminem-live {
+    width: 100%;
+    height: auto;
+}
+iframe,
+video {
+    width: 100%;
+    height: auto;
+}
+/* Padding and alignment for the body */
+body {
+    padding: 1rem;
+    margin: 0 auto;
+}
+header, footer {
+    text-align: center;
+}
+.eminem-portrait {
+    padding: 1rem;
+}
+.eminem-live {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+#quote q {
+    padding: 1rem;
+}
+iframe, video {
+    padding: 1rem;
+}
+/* multiple element list selector for header and footer */
+header, footer {
+    border: 2px solid #1238b7;
+}
+/* class descendant selector for image elements */
+.eminem-live {
+    border-radius: 8px;
+}
+/* figure element with relative path image using the ID selector */
+#figure-relative {
+    border: 3px dashed rgb(25, 148, 189);
+    border-radius: 15px;
+}
+#figure-absolute {
+    border: 3px solid rgb(0, 0, 255);
+    border-radius: 20px;
+}
+/* video/iframe element using an element selector */
+video, iframe {
+    border: 2px solid #25bb98;
+    border-radius: 8px;
+}
+/* blockquote with q element nested using ID selector */
+#quote {
+    border: 1px solid rgb(248, 4, 4);
+    box-shadow: 5px 5px 5px #ffcc00
+}
+/* iframe/video ruleset */
+iframe, video {
+    border: 2px solid #0f0
+}
+/* figcaption element for the relative path image */
+#figcaption-relative {
+    color: rgb(98, 25, 177);
+}
+/* figcaption element for the absolute path image */
+#figcaption-absolute {
+    color: rgb(0, 0, 255);
+}
+/* multiple element list selector for h1 and h2*/
+h1, h2 {
+    color: #2315bb;
+}
+header, footer {
+    background: linear-gradient(rgb(0,0,255));
+}
+.main-section {
+    background-color: hsla(120, 100%, 50%, 0.5);
+}
+#figure-absolute {
+    background-color: hsla(240, 100%, 50% 0.7);
+}
+#figure-relative {
+    background-color: hsla(60, 100%, 50% 0.7);
+}
